@@ -14,6 +14,9 @@ Comandos de Git
 4) git remote add origin url-del-github
 5) git push -u origin master/git push -u origin main (Pide Token en primera vez)
 
-
+Los pasos 2, 3 y 5 se repiten cada vez que se hace commit
 Extra:
+git config --global user.name "nombre de usuario"
+git config --global user.email "email de usuario"
+git config --global --list - Devuelve la lista
 git status - muestra el status de los archivos
